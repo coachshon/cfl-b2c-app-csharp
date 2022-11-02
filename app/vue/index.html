@@ -65,7 +65,7 @@
 
 	<script src="https://unpkg.com/vue@2.6.14"></script>
 	<script>
-		API = "api/todo";
+		API = "api/user";
 		HEADERS = { 'Accept': 'application/json', 'Content-Type': 'application/json' };		
 
 		// visibility filters
@@ -98,7 +98,8 @@
 			// initialize data 
 			// by loading it from REST API
 			created: function() {
-				fetch(API, {headers: HEADERS, method: "GET"})
+				//fetch(API, {headers: HEADERS, method: "GET"})
+				fetch("api/user/GetStatic", {headers: HEADERS, method: "GET"})
 				.then(res => {
 					return res.json();
 				})

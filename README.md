@@ -1,3 +1,4 @@
+npx @azure/static-web-apps-cli start ./app/vue 
 ---
 page_type: sample
 languages:

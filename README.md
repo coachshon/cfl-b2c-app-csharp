@@ -1,6 +1,6 @@
 npx @azure/static-web-apps-cli start ./app/vue 
 ---
-page_type: sample
+page_type: client
 languages:
   - csharp
   - tsql
@@ -17,7 +17,7 @@ products:
   - dotnet
   - dotnet-core
   - azure-app-service-web
-description: 'Full-Stack Kickstart with Azure Static WebApps, Azure Functions, .NET Core, Vue.Js and Azure SQL'
+description: 'Azure Static WebApps, Azure Functions, .NET Core, Vue.Js and Azure SQL'
 urlFragment: 'azure-sql-db-fullstack-serverless-kickstart'
 ---
 
